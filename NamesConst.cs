@@ -22,8 +22,8 @@ namespace ConsoleApp1
         protected readonly By _postUpdate = By.XPath("/html/body/div[7]/div[1]/div[4]/div[2]/div/div[4]/div[2]/a");
         protected readonly By _quitAcc = By.XPath("/html/body/div[7]/div[1]/div[3]/div[3]/div/ul/li[7]/a");
 
-        protected string _mail = "cyan123@yandex.ru";
-        protected string _pass = "RC9DxMvYymD3Bh5";
+        protected string _mail = "";
+        protected string _pass = "";
 
     }
 }
