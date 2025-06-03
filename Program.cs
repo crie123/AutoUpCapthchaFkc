@@ -31,7 +31,7 @@ namespace ConsoleApp1
             //Maximizing the Browser
             driver.Manage().Window.Maximize();
             // Opening the URL
-            driver.Navigate().GoToUrl("https://www.house.kg");
+            driver.Navigate().GoToUrl("https://www.example.com");
             // Locate sign in
             var signIn = driver.FindElement(_signinButton);
             signIn.Click();
